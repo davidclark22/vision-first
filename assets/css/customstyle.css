@@ -7,7 +7,7 @@ p {
     width: auto;
 }
 
-.jumbotron {
+.jumbotron-home {
   background-image: url("../img/building.jpg");
   background-size: cover;
   min-height: 420px;
