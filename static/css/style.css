@@ -1,0 +1,14 @@
+p {
+    font-size: 18px;
+}
+
+.brand-logo {
+    max-height: 50px;
+    width: auto;
+}
+
+.jumbotron {
+  background-image: url("/static/img/building.jpg");
+  background-size: cover;
+  min-height: 420px;
+}
