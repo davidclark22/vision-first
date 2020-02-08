@@ -1,0 +1,31 @@
+{% assign sorted_pages = site.pages | sort:"order" %}
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img class="brand-logo" src="/static/img/vision_first_logo.png"
+                alt="Vision First"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDefault">
+            <ul class="navbar-nav ml-auto">
+                {% for p in sorted_pages %}
+                <li class="nav-item">
+                    <a class="nav-link {% if page.title == p.title %}active{% endif %}" href="{{p.url}}">{{p.title}}</a>
+                </li>
+                {% endfor %}
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Insurance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-success" href="#">Appointments</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
