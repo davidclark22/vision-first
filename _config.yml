@@ -21,9 +21,7 @@
 title: Vision First | Your trusted eyecare provider in the Highland Village area!
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Vision First strives to provide patients with comprehensive and professional eye care for the entire family. We are honored that you trust us with your eye care needs, and we strive to provide our patients with exceptional care.
 # baseurl: "/"
 baseurl: "/vision-first" # the subpath of your site, e.g. /blog
 url: "//davidclark22.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
