@@ -8,7 +8,7 @@ p {
 }
 
 .jumbotron-home {
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6) ), url("../img/office.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5) ), url("../img/office.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
