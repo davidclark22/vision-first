@@ -23,8 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Vision First strives to provide patients with comprehensive and professional eye care for the entire family. We are honored that you trust us with your eye care needs, and we strive to provide our patients with exceptional care.
 # baseurl: "/"
-baseurl: "/vision-first" # the subpath of your site, e.g. /blog
-url: "//davidclark22.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "//visionfirstinc.com/" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: "UA-158869426-2"
 # twitter_username: jekyllrb
 # github_username:  jekyll
